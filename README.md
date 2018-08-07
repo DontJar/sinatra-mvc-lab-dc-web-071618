@@ -19,3 +19,24 @@ In this lab, you'll be building a **Pig Latinizer** using Sinatra and the MVC pa
 <a href='https://en.wikipedia.org/wiki/Pig_Latin'>Pig Latin on wikipedia</a>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/sinatra-mvc-lab'>Sinatra MVC Lab</a> on Learn.co and start learning to code for free.</p>
+_____________________________________________________________________
+class PigLatinizer
+  can create a new instance of a class (FAILED - 1)
+  piglatinizes an individual word (FAILED - 2)
+  has a method splits the sentence to piglatinize each word (FAILED - 3)
+
+Pig Latinizer App
+  GET '/'
+    returns a 200 status code (FAILED - 4)
+    renders the instructions (FAILED - 5)
+    renders a new form element on the page (FAILED - 6)
+    renders the form directions on the page (FAILED - 7)
+    renders the input field for the phrase (FAILED - 8)
+
+  POST '/piglatinize'
+    returns a 200 status code (FAILED - 9)
+    displays the pig latinized phrase upon form submission (FAILED - 10)
+  POST '/piglatinize' again
+
+    returns a 200 status code (FAILED - 11)
+    displays the pig latinized phrase upon form submission (FAILED - 12)
